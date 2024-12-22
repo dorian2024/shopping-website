@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head>
+    <title>Login Page</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+
+   body {
+    display: flex;
+    background-color:rgba(248, 245, 234, 0.35);
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    width: 100%; /*cover entire width*/
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(228, 228, 228, 0.4);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*centre align content*/
+    flex-wrap: wrap;
+    height: 80px;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(228, 228, 228, 0.4);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.login-box {
+    background-color: black;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 8px;
+    box-sizing: content-box;
+    box-decoration-break: clone;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+
+.login-box button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.login-box button:hover {
+    background-color: #ccc;
+}
+
+form {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.content {
+    flex: 2; /* Fill the remaining space between header and footer */
+}
+
+
+        .footer > div {
+            margin: 20px; /* Add margin between each section of footer*/
+        }
+        /*set dimensions for logo used in header*/
+        .logo {
+            max-width: 100%;
+            height: 80px; 
+            margin-right: 20px;
+        }
+        
+        h2 {
+            margin: 0;
+            padding-bottom: 10px;
+        }        
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <img src="logontext.png" alt="Logo" class="logo"> <h2>Jimmy Choo | Luxury at your Doorstep</h2>
+    </div>
+<div class = "login-box">
+    <h2>Login</h2>
+    <form>
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required>
+        <br>        
+        <br>
+       
+     </form>
+     <a href="homePage.html">
+        <button type="submit">Login</button>
+    </a>
+        <p><u><b>Forgot your password?</b></a></u>
+
+        </p>
+        <p><u><b>Don't have an account?</b></u>
+            <br>
+            <br>
+            <a href="signup.html">
+                <button type="submit">Signup</button>
+            </a>
+        </p>
+   
+
+</div>
+    
+<div class="footer">
+        <div>
+            <h3>Contact Information</h3>
+            <p>Email: fatima_umaima@jimmychoo.com</p>
+            <p>Phone: +92 11223344556</p>
+        </div>
+    
+        <div>
+            <h3>Address</h3>
+            <p>FAST University, 3 A.K. Brohi Road, H-11/4 H 11/4 H-11</p>
+            <p>Islamabad, Islamabad Capital Territory</p>
+        </div>
+    </div>
+</body>
+</html>

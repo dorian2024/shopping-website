@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<head>
+    <title>Home Page | Jimmy Choo</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(228, 228, 228, 0.2);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(228, 228, 228, 0.2);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+        }
+
+        .footer > div {
+            margin: 20px; /* Add margin between each section of footer */
+        }
+
+        .logo {
+            max-width: 100%;
+            height: 80px; 
+            margin-right: 20px;
+        }
+        
+        h2 {
+            margin: 0;
+        }
+
+        h1 {
+            margin: 20px 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: black;
+            font-size: xx-large;
+            text-align: center;
+        }
+
+        #about {
+            background-color: rgba(255, 250, 233, 0.7);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: black;
+            text-align: justify;
+            font-size: 20px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 900px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin-right: 20px;
+            margin-left: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #cccbcb;
+        }
+
+        .shoes {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .products {
+            flex: 1;
+            margin: 0 10px; /* Adjust the margin for space between images */
+            max-width: 350px;
+            height: auto;
+            display: block;
+        }
+
+        .description-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .description {
+            flex: 1;
+            margin: 0 10px;
+            max-width: 300px;
+            height: 300px;
+            display: block;
+            background-color: rgb(245, 233, 218, 0.5);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .description b {
+            font-size: 24px;
+            color: #333;
+            display: block;
+            margin-bottom: 10px;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .description p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .shop-now-button {
+            background-color: #333;
+            color: white;
+            padding: 20px 40px; /* Adjust the padding to make the button larger */
+            text-decoration: none;
+            font-size: 20px; /* Adjust the font size to make the text larger */
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            display: inline-block;
+            margin-left: 43%; /*aligning button in centre*/
+        }
+
+        .shop-now-button:hover {
+            background-color: #cccbcb;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logontext.png" alt="Logo" class="logo"> <h2>Jimmy Choo | Luxury at your Doorstep</h2>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="homePage.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="login.html">Login Page</a></li>
+            <li><a href="signup.html">Register</a></li>
+            <li><a href="shoppingcart.html">Cart</a></li>
+        </ul>
+    </nav>
+    <img src="shoes1.png" alt="shoes" class="shoes">
+    <h1>Our Products</h1>
+    <div class="product-container">
+        <img src="shoe.png" alt="shoes" class="products">
+        <img src="perfume.png" alt="perfumes" class="products">
+        <img src="bag.png" alt="bags" class="products">
+    </div>
+    <br>
+    <div class="description-container">
+        <p class="description">
+            <b>Luxury Shoes</b>
+            Elevate your style with our exquisite collection of luxury shoes that seamlessly blend craftsmanship, comfort, and elegance. Each pair is a testament to the artistry of Jimmy Choo, a brand synonymous with sophistication. Indulge in the finest materials, impeccable detailing, and timeless designs that not only complement your attire but also make a bold fashion statement. From iconic stilettos to contemporary sneakers, our range caters to every occasion, ensuring you step out with confidence and grace.
+        </p>
+		<p class="description">
+            <b>Luxury Perfumes</b>
+            Immerse yourself in the world of enchanting fragrances with our curated selection of luxury perfumes. Crafted by Jimmy Choo, our scents are a harmonious blend of sophistication and allure. Embrace the art of olfactory indulgence as each perfume captures the essence of refined luxury. From floral notes that evoke timeless romance to bold, captivating fragrances that leave a lasting impression, our perfumes are designed to accompany you on every journey, leaving an unforgettable trail of sophistication wherever you go.
+        </p>
+		<p class="description">
+            <b>Luxury Bags</b>
+            Experience the epitome of opulence with our collection of luxury bags, designed to be both functional and fashion-forward. Jimmy Choo brings you a range of meticulously crafted handbags that exude glamour and practicality. Imbued with a sense of timeless elegance, our bags feature premium materials, impeccable detailing, and innovative designs. Whether you're attending a soirée, heading to the office, or embarking on a weekend getaway, our luxury bags are the perfect companions, seamlessly blending style and utility to complement your lifestyle.
+        </p>
+    </div>
+
+    <a href="Products.html" class="shop-now-button">Shop Now</a>
+
+    <h1>About Us</h1>
+    <p id="about">
+        Jimmy Choo is a British luxury fashion house specializing in shoes, handbags, accessories, and fragrances. The company, J. Choo Limited, was founded in 1996 by Malaysian Chinese couture shoe designer Jimmy Choo and British Vogue accessories editor Tamara Mellon. The brand claims to have been a favorite of Diana, Princess of Wales. The company was listed on the London Stock Exchange until it was acquired in November 2017 by Michael Kors Holdings, now Capri Holdings.
+	</p>
+
+	<div class="footer">
+        <div>
+            <h3>Contact Information</h3>
+            <p>Email: fatima_umaima@jimmychoo.com</p>
+            <p>Phone: +92 11223344556</p>
+        </div>
+    
+        <div>
+            <h3>Address</h3>
+            <p>FAST University, 3 A.K. Brohi Road, H-11/4 H 11/4 H-11</p>
+            <p>Islamabad, Islamabad Capital Territory</p>
+        </div>
+    </div>
+        
+
+
+</body>
+</html>
